@@ -267,7 +267,7 @@ Text Domain: string-holder
 	/**
 	 *	Create function "get_stho" if not exists
 	 */
-	if ( ! function_exists( 'the_stho' ) ) {
+	if ( ! function_exists( 'get_stho' ) ) {
 		/**
 		 *	Function that return translatable text
 		 *	@global wpdb
